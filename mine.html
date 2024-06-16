@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Front</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <style>
+        /* reset stuff */
+    
+        .table {
+            --bs-table-color: initial;
+        }
+
+        
+    </style>
+</head>
+
+<body >
+    <nav class="navbar navbar-expand-lg " style="background-color: rgb(33, 34, 68);">
+        <div class="container-fluid">
+            <button class="btn btn-primary btn-md rounded-pill" href="#">Connect Wallet</button>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                </ul>
+                <form class="d-flex me-5">
+
+                    <ul class="navbar-nav me-5 mb-2  mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"><i
+                                    class="nav-link fa-solid fa-message text-white"></i></a>
+                        </li>
+                        <li class="nav-item dropdown mt-1">
+                            <a class="nav-link dropdown-toggle lang text-white" href="#" id="navbarDropdown"
+                                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                English
+                            </a>
+                            <ul class="dropdown-menu bg-white" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item bg-white" href="#">English</a></li>
+                                <li><a class="dropdown-item bg-white" href="#">Chinese</a></li>
+
+                            </ul>
+                        </li>
+                    </ul>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div class="card pt-4 ps-2" style="background-color: rgb(33, 34, 68);">
+        <div class="card-body">
+            <div class="row d-flex">
+                <div class="col-md-6" style="font-size: 14px;">
+                   <img src="./assets/images/avatar.png" alt="" width="70px" height="70px" style="border-radius: 10px;">
+                    Loading....
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="card m-4 ps-2" style="background-color: rgb(33, 34, 68);border-radius: 30px;">
+        <div class="card-body">
+            <div class="row">
+                <div class="col">
+                    <p class="float-end text-muted">0 USDT</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="input-group mt-0" id="show_hide_password2">
+                                <input type="text" class="form-control border-0 rounded-pill" style="background-color: #2c2c52;">
+                                <div class="input-group-addon">
+                                    <img src="./assets/images/usdt-icon.png" alt="" width="20px" height="20px">
+                    USDT
+                   <button class="btn btn-sm rounded-pill" style="color: #f90;background-color: #372d3d;">Max</button>
+                                </div>
+                            </div>
+                    
+                </div>
+                
+            </div>
+            <button class="btn text-center  w-100 mt-2 p-2 text-white" style="border-radius: 10px;background-color: #6b54eb;" >Withdraw</button>
+            <button class="btn text-center  w-100 mt-2 p-2 text-white mb-4" style="border-radius: 10px;background-color: #2c2c52" >Withdraw Record</button>
+        </div>
+    </div>
+
+    <div class="card m-4 ps-2" style="background: linear-gradient(318.46deg,#6b54eb,#d080ff);border-radius: 20px;">
+        <div class="card-body py-2">
+            <div class="row">
+                <div class="col-1 text-center ">
+                <img src="./assets/images/usdt-icon.png" alt="" width="50px" height="50px">
+                
+            </div>
+            <div class="col-3 me-0">
+                <p>Invite Friend <br><span class="text-muted">Earn Comission</span></p>
+            </div>
+            <div class="col-1 mt-3 offset-7">
+                <button class="btn bg-white float-end px-3" style="color: #6b54eb;font-size: 14px;">Invite</button>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="card mt-3" style="background-color: #212244;padding: 1.5rem;border-radius: 1.5rem;">
+            <div class="row">
+                <div class="col">
+                    <h5>My Earnings</h5>
+                </div>
+                <div class="col ">
+                    <button class="btn float-end rounded-pill" style="color: #f90;background-color: #372d3d;">See All</button>
+                </div>
+            </div>
+            <div class="card mt-3" style="background-color: #2a2c52">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-md-4 text-center">
+                            <p class="text-muted">Total output</p>
+                            <h6 class="text-white">0</h6>
+                            <h6 class="text-white">ETH</h6>
+                        </div>
+                        <div class="col-md-4 text-center">
+                            <p class="text-muted">Yesterday output</p>
+                            <h6 class="text-white">0</h6>
+                            <h6 class="text-white">ETH</h6>
+                        </div>
+                        <div class="col-md-4 text-center">
+                            <p class="text-muted">Total output</p>
+                            <h6 class="text-white">0</h6>
+                            <h6 class="text-white">ETH</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+
+    <div class="card mt-3 mb-5" style="background-color: #212244;padding: 1.5rem;border-radius: 1.5rem;">
+        <div class="row">
+            <div class="col">
+                <h5>My Team</h5>
+            </div>
+            <div class="col ">
+                <button class="btn float-end rounded-pill" style="color: #f90;background-color: #372d3d;">See All</button>
+            </div>
+        </div>
+        <div class="card mt-3" style="background-color: #2a2c52">
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-md-4 text-center">
+                        <p class="text-muted">Total output</p>
+                        <h6 class="text-white">0</h6>
+                        <h6 class="text-white">ETH</h6>
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <p class="text-muted">Yesterday output</p>
+                        <h6 class="text-white">0</h6>
+                        <h6 class="text-white">ETH</h6>
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <p class="text-muted">Total output</p>
+                        <h6 class="text-white">0</h6>
+                        <h6 class="text-white">ETH</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+    <div class="row text-center align-items-center mb-5">
+        <div class="container fixed-bottom" style="width:100%;background-color: rgb(33, 34, 68);">
+            <nav class="navbar navbar-expand-sm navbar-dark p-0 mt-3" style="width:100%;max-height:70px;">
+
+
+                <div class="col-lg-3">
+                    <a href="index.html" style="text-decoration:none">
+                        <img src="./assets/images/home.png" alt="" width="25px" height="25px">
+                        <p class="nav-text"> Home</p>
+                    </a>
+                </div>
+
+                <div class="col-lg-3">
+                    <a href="team.html" style="text-decoration:none">
+                        <img src="./assets/images/team.png" alt="" width="25px" height="25px">
+                        <p class="nav-text">Team</p>
+                    </a>
+                </div>
+
+                <div class="col-lg-3">
+                    <a href="service.html" style="text-decoration:none">
+                        <img src="./assets/images/serve.png" alt="" width="25px" height="25px">
+                        <p class="nav-text">Service</p>
+                    </a>
+                </div>
+
+                <div class="col-lg-3">
+                    <a href="mine.html" style="text-decoration:none">
+                        <img src="./assets/images/mine.png" alt="" width="25px" height="25px">
+                        <p class="nav-text">Mine</p>
+                    </a>
+                </div>
+
+                <!-- <div class="col-lg-3 col-1">
+                        <a href="{{ route('recordAll') }}" style="text-decoration:none" class=<?php echo $status=='record'
+                            ? "primary-textColor" : "text-dark" ?>>
+                            @if($status == 'record')
+                            <img src="{{ asset('image/recordactive.png') }}" alt="" width="25px" height="30px">
+                            <p>Records</p>
+                        </a>
+                        @else
+                        <img src="{{ asset('image/list.png') }}" alt="" width="30px" height="30px">
+                        <p>Records</p></a>
+                        @endif
+                    </div>
+                    <div class="col-lg-3 col-1">
+                        <a href="{{ route('recordAll') }}" style="text-decoration:none" class=<?php echo $status=='record'
+                            ? "primary-textColor" : "text-dark" ?>>
+                            @if($status == 'record')
+                            <img src="{{ asset('image/recordactive.png') }}" alt="" width="30px" height="30px">
+                            <p>Records</p>
+                        </a>
+                        @else
+                        <img src="{{ asset('image/list.png') }}" alt="" width="30px" height="30px">
+                        <p>Records</p></a>
+                        @endif
+                    </div>
+                    <div class="col-lg-3 col-1" id="bigIcon">
+                        <a href="{{ route('order') }}" style="text-decoration:none" class=<?php echo $status=='order'
+                            ? "primary-textColor" : "text-dark" ?> >
+                            @if($status == 'order')
+                            <img src="{{ asset('image/orderactive.png') }}" alt="" width="100px" height="100px">
+                            <p>Order</p>
+                        </a>
+                        @else
+                        <img src="{{ asset('image/order.png') }}" alt="" width="100px" height="100px">
+                        <p>Order</p></a>
+                        @endif
+                    </div>
+                    <div class="col-lg-3 col-1">
+                        <a href="{{ route('message') }}" style="text-decoration:none" class=<?php echo $status=='message'
+                            ? "primary-textColor" : "text-dark" ?>>
+                            @if($status == 'message')
+                            <img src="{{ asset('image/msgactive.png') }}" alt="" width="30px" height="30px">
+                            <p>Messages</p>
+                        </a>
+                        @else
+                        <img src="{{ asset('image/messages.png') }}" alt="" width="30px" height="30px">
+                        <p>Messages</p></a>
+                        @endif
+                    </div>
+                    <div class="col-lg-3 col-1">
+                        <a href="{{ route('setting') }}" style="text-decoration:none" class=<?php echo $status=='setting'
+                            ? "primary-textColor" : "text-dark" ?>>
+                            @if($status == 'setting')
+                            <img src="{{ asset('image/profileactive.png') }}" alt="" width="30px" height="30px">
+                            <p>Setting</p>
+                        </a>
+                        @else
+                        <img src="{{ asset('image/personal2.png') }}" alt="" width="30px" height="30px">
+                        <p>Setting</p></a>
+                        @endif
+                    </div> -->
+            </nav>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"
+        integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"
+        integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.0/fuse.min.js"></script>
+    <script src="bootstrap-select-dropdown.min.js"></script>
+</body>
+
+</html>

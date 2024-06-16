@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Front</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg ">
+        <div class="container-fluid">
+            <button  class="btn btn-primary btn-md rounded-pill" href="#" >Connect Wallet</button>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    
+                </ul>
+                <form class="d-flex me-5">
+                    
+                    <ul class="navbar-nav me-5 mb-2  mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"><i
+                                class="nav-link fa-solid fa-message text-white"></i></a>
+                    </li>
+                    <li class="nav-item dropdown mt-1">
+                        <a class="nav-link dropdown-toggle lang text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            English
+                        </a>
+                        <ul class="dropdown-menu bg-white" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item bg-white"  href="#">English</a></li>
+                            <li><a class="dropdown-item bg-white" href="#">Chinese</a></li>
+        
+                        </ul>
+                    </li>
+                    </ul>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators bg-transparent">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://images.unsplash.com/photo-1513542789411-b6a5d4f31634?q=80&w=2874&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="d-block w-100" alt="..." height="200px">
+            </div>
+            <div class="carousel-item">
+                <img src="https://images.unsplash.com/photo-1508138221679-760a23a2285b?q=80&w=2874&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="d-block w-100" alt="..." height="200px">
+            </div>
+            <div class="carousel-item">
+                <img src="https://images.unsplash.com/photo-1496449903678-68ddcb189a24?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="d-block w-100" alt="..." height="200px">
+            </div>
+        </div>
+        <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-ic   on" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button> -->
+    </div>
+
+    <div class="card" style="background-color: rgb(22, 23, 46);border-radius: 100px;">
+        <div class="card-body">
+            <div class="row">
+                <div class="col-md-3">
+                    <h3 class="text-muted"><span class="text-white">0</span> USDT</h3>
+                </div>
+                <div class="col-md-1 offset-8 ">
+                    <button class="btn btn-sm text-white p-2" style="background-color: #6b54eb">Participate</button>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-md-3">
+                    <h6 class="text-white"> Address</h6>
+                </div>
+                <div class="col-md-1 offset-8 ">
+                    <h6 class="text-white">*********</h6>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-md-4 text-center">
+                    <p class="text-muted">Total output</p>
+                    <h6 class="text-white">0</h6>
+                    <h6 class="text-white">ETH</h6>
+                </div>
+                <div class="col-md-4 text-center">
+                    <p class="text-muted">Yesterday output</p>
+                    <h6 class="text-white">0</h6>
+                    <h6 class="text-white">ETH</h6>
+                </div>
+                <div class="col-md-4 text-center">
+                    <p class="text-muted">Total output</p>
+                    <h6 class="text-white">0</h6>
+                    <h6 class="text-white">ETH</h6>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-md-6  ">
+                    <p>Wallet Balance</p>
+                    <button class="btn w-100 text-white" style="background-color: rgb(44,44,82) ;">0 USDT</button>
+                </div>
+                <div class="col-md-6" >
+                    <p>Daily yield</p>
+                    <button class="btn  w-100 text-white" style="background-color: rgb(81,49,255) ;">0.000%</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="card m-3 rounded" style="background-color: rgb(44,44,82) ;">
+            <div class="card-body m-0 pt-0 pb-0">
+                <div class="row  pt-2 ">
+                    <div class="col-md-2 text-center">
+                        <p>Current Hashrate<i class="fa-solid fa-star" style="color: #FFD43B;"></i></p>
+                    </div>
+                    <div class="col-md-1 offset-8 text-center">
+                        <p>261(PH/s)</p>
+                    </div>
+                </div>
+            </div>
+    </div>
+
+    <div class="card m-3" style="background-color: rgb(44,44,82) ;">
+        <div class="card-body">
+            <div class="row text-center">
+                <div class="col-md-4 text-center ">
+                    <i class="fa-solid fa-microchip text-center" style="color: #1eff00;"></i><br>
+                    <p class="text-muted">Total output</p>
+                    <h6 class="text-white">0</h6>
+                    <h6 class="text-white">ETH</h6>
+                </div>
+                <div class="col-md-4 text-center">
+                    <i class="fa-solid fa-user-group" style="color: #fb29ff;"></i>
+                    <p class="text-muted">Yesterday output</p>
+                    <h6 class="text-white">0</h6>
+                    <h6 class="text-white">ETH</h6>
+                </div>
+                <div class="col-md-4 text-center ">
+                    <i class="fa-solid fa-signal" style="color: #0c6fbb;"></i>
+                    <p class="text-muted">Total output</p>
+                    <h6 class="text-white">0</h6>
+                    <h6 class="text-white">ETH</h6>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="card m-3" style="background-color: rgb(44,44,82) ;">
+        <div class="card-body">
+            <h5>User Benefits</h5>
+            <div class="row">
+                <div class="col-md-2">
+                    <p class="text-muted">Address</p>
+                </div>
+                <div class="col-md-2 offset-8">
+                    <p class="text-end">Quantity</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-2">
+                    <p class="">0x11***5e2323</p>
+                </div>
+                <div class="col-md-2 offset-8">
+                    <p class="text-end">3434.44</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-2">
+                    <p class="">0x11***5e2323</p>
+                </div>
+                <div class="col-md-2 offset-8">
+                    <p class="text-end">3434.44</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-2">
+                    <p class="">0x11***5e2323</p>
+                </div>
+                <div class="col-md-2 offset-8">
+                    <p class="text-end">3434.44</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-2">
+                    <p class="">0x11***5e2323</p>
+                </div>
+                <div class="col-md-2 offset-8">
+                    <p class="text-end">3434.44</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-2">
+                    <p class="">0x11***5e2323</p>
+                </div>
+                <div class="col-md-2 offset-8">
+                    <p class="text-end">3434.44</p>
+                </div>
+            </div>    
+        </div>
+    </div>
+
+            <div class="card m-3" style="background-color: rgb(44,44,82) ;">
+            <div class="card-body">
+                <h5>Help Center</h5>
+                <div id="accordion mt-2 ">
+                    <!-- <div class="card" > -->
+                    <!-- <div class="card " > -->
+                    <div class="card-header" style="background-color: rgb(44,44,82) ;" id="headingOne">
+                        <h5 class="mb-0">
+                            <div class="row align-items-center"  style="background-color: rgb(44,44,82) ;" data-toggle="collapse" data-target="#collapseOne"
+                                        aria-expanded="true" aria-controls="collapseOne">
+                                <div class="col-md-2"  style="background-color: rgb(44,44,82) ;">
+                                    <button class="btn text-white  text-start shadow-none"  style="background-color: rgb(44,44,82) ;">
+                                        What is Node Mining?
+                                    
+                                    </button>
+                                    
+                                </div>
+                                <div class="col-md-1 offset-9"  style="background-color: rgb(44,44,82) ;">
+                                    <i class="fas fa-arrow-circle-left text-end" ></i>
+                                </div>
+                            </div>
+                        </h5>
+                    </div>
+                
+                    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion" style="background-color: rgb(44,44,82) ;">
+                        <div class="card-body" style="background-color: rgb(44,44,82) ;">
+                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf
+                            moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+                            Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda
+                            shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea
+                            proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim
+                            aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                        </div>
+                        <!-- </div> -->
+                    </div>
+                </div>
+
+                <div id="accordion mt-5 ">
+                    <!-- <div class="card" > -->
+                    <!-- <div class="card " > -->
+                    <div class="card-header mt-2" style="background-color: rgb(44,44,82) ;" id="headingOne">
+                        <h5 class="mb-0">
+                            <div class="row align-items-center" style="background-color: rgb(44,44,82) ;" data-toggle="collapse"
+                                data-target="#collapseOne2" aria-expanded="true" aria-controls="collapseOne2">
+                                <div class="col-md-2" style="background-color: rgb(44,44,82) ;">
+                                    <button class="btn text-white  text-start shadow-none" style="background-color: rgb(44,44,82) ;">
+                                        What is Node Mining?
+                
+                                    </button>
+                
+                                </div>
+                                <div class="col-md-1 offset-9" style="background-color: rgb(44,44,82) ;">
+                                    <i class="fas fa-arrow-circle-left text-end"></i>
+                                </div>
+                            </div>
+                        </h5>
+                    </div>
+                
+                    <div id="collapseOne2" class="collapse " aria-labelledby="headingOne" data-parent="#accordion"
+                        style="background-color: rgb(44,44,82) ;">
+                        <div class="card-body" style="background-color: rgb(44,44,82) ;">
+                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf
+                            moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+                            Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda
+                            shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea
+                            proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim
+                            aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                        </div>
+                        <!-- </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row text-center align-items-center mb-5">
+            <div class="container fixed-bottom" style="width:100%;background-color: rgb(33, 34, 68);">
+                <nav class="navbar navbar-expand-sm navbar-dark p-0 mt-3"
+                    style="width:100%;max-height:70px;">
+                   
+
+                    <div class="col-lg-3">
+                        <a href="index.html" style="text-decoration:none">
+                            <img src="./assets/images/home.png" alt="" width="25px" height="25px">
+                            <p class="nav-text" > Home</p>
+                        </a>
+                    </div>
+
+                    <div class="col-lg-3">
+                        <a href="team.html" style="text-decoration:none">
+                            <img src="./assets/images/team.png" alt="" width="25px" height="25px">
+                            <p class="nav-text">Team</p>
+                        </a>
+                    </div>
+
+                    <div class="col-lg-3">
+                        <a href="service.html" style="text-decoration:none">
+                            <img src="./assets/images/serve.png" alt="" width="25px" height="25px">
+                            <p class="nav-text">Service</p>
+                        </a>
+                    </div>
+
+                    <div class="col-lg-3">
+                        <a href="mine.html" style="text-decoration:none">
+                            <img src="./assets/images/mine.png" alt="" width="25px" height="25px">
+                            <p class="nav-text">Mine</p>
+                        </a>
+                    </div>
+        
+                    <!-- <div class="col-lg-3 col-1">
+                        <a href="{{ route('recordAll') }}" style="text-decoration:none" class=<?php echo $status=='record'
+                            ? "primary-textColor" : "text-dark" ?>>
+                            @if($status == 'record')
+                            <img src="{{ asset('image/recordactive.png') }}" alt="" width="25px" height="30px">
+                            <p>Records</p>
+                        </a>
+                        @else
+                        <img src="{{ asset('image/list.png') }}" alt="" width="30px" height="30px">
+                        <p>Records</p></a>
+                        @endif
+                    </div>
+                    <div class="col-lg-3 col-1">
+                        <a href="{{ route('recordAll') }}" style="text-decoration:none" class=<?php echo $status=='record'
+                            ? "primary-textColor" : "text-dark" ?>>
+                            @if($status == 'record')
+                            <img src="{{ asset('image/recordactive.png') }}" alt="" width="30px" height="30px">
+                            <p>Records</p>
+                        </a>
+                        @else
+                        <img src="{{ asset('image/list.png') }}" alt="" width="30px" height="30px">
+                        <p>Records</p></a>
+                        @endif
+                    </div>
+                    <div class="col-lg-3 col-1" id="bigIcon">
+                        <a href="{{ route('order') }}" style="text-decoration:none" class=<?php echo $status=='order'
+                            ? "primary-textColor" : "text-dark" ?> >
+                            @if($status == 'order')
+                            <img src="{{ asset('image/orderactive.png') }}" alt="" width="100px" height="100px">
+                            <p>Order</p>
+                        </a>
+                        @else
+                        <img src="{{ asset('image/order.png') }}" alt="" width="100px" height="100px">
+                        <p>Order</p></a>
+                        @endif
+                    </div>
+                    <div class="col-lg-3 col-1">
+                        <a href="{{ route('message') }}" style="text-decoration:none" class=<?php echo $status=='message'
+                            ? "primary-textColor" : "text-dark" ?>>
+                            @if($status == 'message')
+                            <img src="{{ asset('image/msgactive.png') }}" alt="" width="30px" height="30px">
+                            <p>Messages</p>
+                        </a>
+                        @else
+                        <img src="{{ asset('image/messages.png') }}" alt="" width="30px" height="30px">
+                        <p>Messages</p></a>
+                        @endif
+                    </div>
+                    <div class="col-lg-3 col-1">
+                        <a href="{{ route('setting') }}" style="text-decoration:none" class=<?php echo $status=='setting'
+                            ? "primary-textColor" : "text-dark" ?>>
+                            @if($status == 'setting')
+                            <img src="{{ asset('image/profileactive.png') }}" alt="" width="30px" height="30px">
+                            <p>Setting</p>
+                        </a>
+                        @else
+                        <img src="{{ asset('image/personal2.png') }}" alt="" width="30px" height="30px">
+                        <p>Setting</p></a>
+                        @endif
+                    </div> -->
+                </nav>
+            </div>
+        </div>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"
+            integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"
+            integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.0/fuse.min.js"></script>
+        <script src="bootstrap-select-dropdown.min.js"></script>
+</body>
+</html>

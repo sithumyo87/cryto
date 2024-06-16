@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Front</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <style>
+        /* reset stuff */
+    
+        .table {
+            --bs-table-color: initial;
+        }
+
+        
+    </style>
+</head>
+
+<body >
+    <nav class="navbar navbar-expand-lg " style="background-color: rgb(33, 34, 68);">
+        <div class="container-fluid">
+            <button class="btn btn-primary btn-md rounded-pill" href="#">Connect Wallet</button>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                </ul>
+                <form class="d-flex me-5">
+
+                    <ul class="navbar-nav me-5 mb-2  mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"><i
+                                    class="nav-link fa-solid fa-message text-white"></i></a>
+                        </li>
+                        <li class="nav-item dropdown mt-1">
+                            <a class="nav-link dropdown-toggle lang text-white" href="#" id="navbarDropdown"
+                                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                English
+                            </a>
+                            <ul class="dropdown-menu bg-white" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item bg-white" href="#">English</a></li>
+                                <li><a class="dropdown-item bg-white" href="#">Chinese</a></li>
+
+                            </ul>
+                        </li>
+                    </ul>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div class="card pt-4 ps-2" style="background-color: rgb(33, 34, 68);">
+        <div class="card-body">
+            <h4>USD ETHW AI Strategy-C Mining Pool</h4>
+            <div class="row d-flex">
+                <div class="col-md-6" style="font-size: 14px;">
+                    <i class="fa-solid fa-arrow-right-arrow-left me-1" style="color: #3ef800;"></i>
+                    No Need to transfer currency
+                </div>
+            </div>
+            <div class="row d-flex">
+                <div class="col-md-6" style="font-size: 14px;">
+                    <i  class="fa-solid fa-chart-simple me-1" style="color: #fb29ff;"></i>
+                    Stable Income
+                </div>
+            </div>
+            <p class="text-muted mt-3">Committed to building the world's largest DeFi platform integrating DEX, IMO and DAO</p>
+        </div>
+    </div>
+
+    <div class="card mt-4 ps-2" style="background-color: rgb(33, 34, 68);border-radius: 30px;">
+        <div class="card-body">
+            <h4>Project Features</h4>
+            <div class="row d-flex pt-3">
+                <div class="col-1 ps-5" style="font-size: 14px;">
+                    <div class="row " style="width: 50px;height:50px;border-radius: 10px;background-color: #384d31;">
+                    <i class="fa-solid fa-shield-cat fa-2x pe-5  mx-auto d-block mt-2" style="color: #3ef800;width: 40px;height: 40px;"></i>
+                    </div>
+                </div>
+                <div class="col-7 pe-5">
+                    <h6>Safe and secure</h6>
+                    <h6 class="text-muted">No need to transfer currency, USDT deposit in your own wallet 0 risk</h6>
+                </div>
+            </div>
+            <div class="row d-flex mt-3">
+                <div class="col-1 ps-5" style="font-size: 14px;">
+                    <div class="row " style="width: 50px;height:50px;border-radius: 10px;background-color: #5e265f;">
+                        <i class="fa-solid fa-chart-simple fa-2x pe-5  mx-auto d-block mt-2"
+                            style="color: #fb29ff;width: 40px;height: 40px;"></i>
+                    </div>
+                </div>
+                <div class="col-7 pe-5">
+                    <h6>Professional stability</h6>
+                    <h6 class="text-muted">Professional team, stable operation throughout the year</h6>
+                </div>
+            </div>
+            <div class="row d-flex mt-3">
+                <div class="col-1 ps-5" style="font-size: 14px;">
+                    <div class="row " style="width: 50px;height:50px;border-radius: 10px;background-color: #273258;">
+                    <i class="fa-brands fa-bitcoin fa-2x pe-5  mx-auto d-block mt-2"
+                            style="color: #0057f8;width: 40px;height: 40px;"></i>
+                    </div>
+                </div>
+                <div class="col-7 pe-5">
+                    <h6>Low entry barrier</h6>
+                    <h6 class="text-muted">Sharing node mining revenue</h6>
+                </div>
+            </div>
+           
+        </div>
+    </div>
+
+    <div class="card" style="background-color: rgb(33, 34, 68);border-radius: 30px;">
+        <div class="card-body">
+            <h5 class="p-3"><b>Grading Income</b></h5>
+            <table class="table table-responsive text-center table-striped table-borderless" style="color: red; --bs-table-striped-color: red;">
+               <thead>
+                <tr>
+                <td class="text-muted ">Level</td>
+                <td class="text-muted ">USDT</td>
+                <td class="text-muted ">Yield</td>
+                <td class="text-muted ">Income(%)</td>
+                </tr>
+               </thead>
+                <tbody class="text-muted">
+                    <tr>
+                        <td class="text-muted ">VIP0</td>
+                        <td class="text-muted ">10-199</td>
+                        <td class="text-muted ">0.03%</td>
+                        <td class="text-muted ">
+                            Lev1:0.00% <br> Lev2:0.00%
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="text-muted ">VIP1</td>
+                        <td class="text-muted ">10-199</td>
+                        <td class="text-muted ">0.03%</td>
+                        <td class="text-muted ">
+                            Lev1:0.00% <br> Lev2:0.00%
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="text-muted ">VIP02</td>
+                        <td class="text-muted ">10-199</td>
+                        <td class="text-muted ">0.03%</td>
+                        <td class="text-muted ">
+                            Lev1:0.00% <br> Lev2:0.00%
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="text-muted ">VIP3</td>
+                        <td class="text-muted ">10-199</td>
+                        <td class="text-muted ">0.03%</td>
+                        <td class="text-muted ">
+                            Lev1:0.00% <br> Lev2:0.00%
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="text-muted ">VIP4</td>
+                        <td class="text-muted ">10-199</td>
+                        <td class="text-muted ">0.03%</td>
+                        <td class="text-muted ">
+                            Lev1:0.00% <br> Lev2:0.00%
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="text-muted ">VIP5</td>
+                        <td class="text-muted ">10-199</td>
+                        <td class="text-muted ">0.03%</td>
+                        <td class="text-muted ">
+                            Lev1:0.00% <br> Lev2:0.00%
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="text-muted ">VIP6</td>
+                        <td class="text-muted ">10-199</td>
+                        <td class="text-muted ">0.03%</td>
+                        <td class="text-muted ">
+                            Lev1:0.00% <br> Lev2:0.00%
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="text-muted ">VIP7</td>
+                        <td class="text-muted ">1500000-999999999</td>
+                        <td class="text-muted ">0.03%</td>
+                        <td class="text-muted ">
+                            Lev1:0.00% <br> Lev2:0.00%
+                        </td>
+                    </tr>
+                   
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class="card mt-4" style="background-color: rgb(33, 34, 68);border-radius: 30px;">
+      <div class="card-body">
+        <h5>Help Center</h5>
+        <div id="accordion mt-2 ">
+          <!-- <div class="card" > -->
+          <!-- <div class="card " > -->
+          <div
+            class="card-header"
+            style="background-color: rgb(44, 44, 82)"
+            id="headingOne"
+          >
+            <h5 class="mb-0">
+              <div
+                class="row align-items-center"
+                style="background-color: rgb(44, 44, 82)"
+                data-toggle="collapse"
+                data-target="#collapseOne"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                <div class="col-md-2" style="background-color: rgb(44, 44, 82)">
+                  <button
+                    class="btn text-white text-start shadow-none"
+                    style="background-color: rgb(44, 44, 82)"
+                  >
+                    What is Node Mining?
+                  </button>
+                </div>
+                <div
+                  class="col-md-1 offset-9"
+                  style="background-color: rgb(44, 44, 82)"
+                >
+                  <i class="fas fa-arrow-circle-left text-end"></i>
+                </div>
+              </div>
+            </h5>
+          </div>
+
+          <div
+            id="collapseOne"
+            class="collapse"
+            aria-labelledby="headingOne"
+            data-parent="#accordion"
+            style="background-color: rgb(44, 44, 82)"
+          >
+            <div class="card-body" style="background-color: rgb(44, 44, 82)">
+              Anim pariatur cliche reprehenderit, enim eiusmod high life
+              accusamus terry richardson ad squid. 3 wolf moon officia aute, non
+              cupidatat skateboard dolor brunch. Food truck quinoa nesciunt
+              laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird
+              on it squid single-origin coffee nulla assumenda shoreditch et.
+              Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred
+              nesciunt sapiente ea proident. Ad vegan excepteur butcher vice
+              lomo. Leggings occaecat craft beer farm-to-table, raw denim
+              aesthetic synth nesciunt you probably haven't heard of them
+              accusamus labore sustainable VHS.
+            </div>
+            <!-- </div> -->
+          </div>
+        </div>
+
+        <div id="accordion mt-5 ">
+          <!-- <div class="card" > -->
+          <!-- <div class="card " > -->
+          <div
+            class="card-header mt-2"
+            style="background-color: rgb(44, 44, 82)"
+            id="headingOne"
+          >
+            <h5 class="mb-0">
+              <div
+                class="row align-items-center"
+                style="background-color: rgb(44, 44, 82)"
+                data-toggle="collapse"
+                data-target="#collapseOne2"
+                aria-expanded="true"
+                aria-controls="collapseOne2"
+              >
+                <div class="col-md-2" style="background-color: rgb(44, 44, 82)">
+                  <button
+                    class="btn text-white text-start shadow-none"
+                    style="background-color: rgb(44, 44, 82)"
+                  >
+                    What is Node Mining?
+                  </button>
+                </div>
+                <div
+                  class="col-md-1 offset-9"
+                  style="background-color: rgb(44, 44, 82)"
+                >
+                  <i class="fas fa-arrow-circle-left text-end"></i>
+                </div>
+              </div>
+            </h5>
+          </div>
+
+          <div
+            id="collapseOne2"
+            class="collapse"
+            aria-labelledby="headingOne"
+            data-parent="#accordion"
+            style="background-color: rgb(44, 44, 82)"
+          >
+            <div class="card-body" style="background-color: rgb(44, 44, 82)">
+              Anim pariatur cliche reprehenderit, enim eiusmod high life
+              accusamus terry richardson ad squid. 3 wolf moon officia aute, non
+              cupidatat skateboard dolor brunch. Food truck quinoa nesciunt
+              laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird
+              on it squid single-origin coffee nulla assumenda shoreditch et.
+              Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred
+              nesciunt sapiente ea proident. Ad vegan excepteur butcher vice
+              lomo. Leggings occaecat craft beer farm-to-table, raw denim
+              aesthetic synth nesciunt you probably haven't heard of them
+              accusamus labore sustainable VHS.
+            </div>
+            <!-- </div> -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card" style="background-color: rgb(33, 34, 68);border-radius: 30px;">
+        <div class="card-body">
+            <h5 class="p-3"><b>Grading Income</b></h5>
+            <div class="row d-flex justify-content-center align-items-center text-center text-white">
+                <div class="col-md-4">
+                    <button class="btn  w-100 text-muted platform-color" >Gate.io</button>
+                </div>
+                <div class="col-md-4">
+                    <button class="btn btn-transparent w-100 text-muted platform-color">Binance</button>
+                </div>
+                <div class="col-md-4">
+                    <button class="btn btn-transparent w-100 text-muted platform-color">WazirX</button>
+                </div>
+            </div>
+            <div class="row d-flex justify-content-center align-items-center text-center text-white mt-3">
+                <div class="col-md-4">
+                    <button class="btn  w-100 text-muted platform-color" >Upbit</button>
+                </div>
+                <div class="col-md-4">
+                    <button class="btn btn-transparent w-100 text-muted platform-color">OKX</button>
+                </div>
+                <div class="col-md-4">
+                    <button class="btn btn-transparent w-100 text-muted platform-color">Kucoin</button>
+                </div>
+            </div>
+            <div class="row d-flex justify-content-center align-items-center text-center text-white mt-3">
+                <div class="col-md-4">
+                    <button class="btn  w-100 text-muted platform-color" >Kraken</button>
+                </div>
+                <div class="col-md-4">
+                    <button class="btn btn-transparent w-100 text-muted platform-color">Huobi Global</button>
+                </div>
+                <div class="col-md-4">
+                    <button class="btn btn-transparent w-100 text-muted platform-color">Crypto</button>
+                </div>
+            </div>
+            <div class="row d-flex justify-content-center align-items-center text-center text-white mt-3">
+                <div class="col-md-4">
+                    <button class="btn  w-100 text-muted platform-color" >Coinbase</button>
+                </div>
+                <div class="col-md-4">
+                    <button class="btn btn-transparent w-100 text-muted platform-color">Bitfinex</button>
+                </div>
+                <div class="col-md-4">
+                    <button class="btn btn-transparent w-100 text-muted platform-color">Binance</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <p class="w-100 text-center m-5 mb-5 pb-4" style="font-size: 14px">© 2023 All rights reserved</p>
+
+    <div class="row text-center align-items-center mb-5">
+        <div class="container fixed-bottom" style="width:100%;background-color: rgb(33, 34, 68);">
+            <nav class="navbar navbar-expand-sm navbar-dark p-0 mt-3" style="width:100%;max-height:70px;">
+
+
+                <div class="col-lg-3">
+                    <a href="index.html" style="text-decoration:none">
+                        <img src="./assets/images/home.png" alt="" width="25px" height="25px">
+                        <p class="nav-text"> Home</p>
+                    </a>
+                </div>
+
+                <div class="col-lg-3">
+                    <a href="team.html" style="text-decoration:none">
+                        <img src="./assets/images/team.png" alt="" width="25px" height="25px">
+                        <p class="nav-text">Team</p>
+                    </a>
+                </div>
+
+                <div class="col-lg-3">
+                    <a href="service.html" style="text-decoration:none">
+                        <img src="./assets/images/serve.png" alt="" width="25px" height="25px">
+                        <p class="nav-text">Service</p>
+                    </a>
+                </div>
+
+                <div class="col-lg-3">
+                    <a href="mine.html" style="text-decoration:none">
+                        <img src="./assets/images/mine.png" alt="" width="25px" height="25px">
+                        <p class="nav-text">Mine</p>
+                    </a>
+                </div>
+
+                <!-- <div class="col-lg-3 col-1">
+                        <a href="{{ route('recordAll') }}" style="text-decoration:none" class=<?php echo $status=='record'
+                            ? "primary-textColor" : "text-dark" ?>>
+                            @if($status == 'record')
+                            <img src="{{ asset('image/recordactive.png') }}" alt="" width="25px" height="30px">
+                            <p>Records</p>
+                        </a>
+                        @else
+                        <img src="{{ asset('image/list.png') }}" alt="" width="30px" height="30px">
+                        <p>Records</p></a>
+                        @endif
+                    </div>
+                    <div class="col-lg-3 col-1">
+                        <a href="{{ route('recordAll') }}" style="text-decoration:none" class=<?php echo $status=='record'
+                            ? "primary-textColor" : "text-dark" ?>>
+                            @if($status == 'record')
+                            <img src="{{ asset('image/recordactive.png') }}" alt="" width="30px" height="30px">
+                            <p>Records</p>
+                        </a>
+                        @else
+                        <img src="{{ asset('image/list.png') }}" alt="" width="30px" height="30px">
+                        <p>Records</p></a>
+                        @endif
+                    </div>
+                    <div class="col-lg-3 col-1" id="bigIcon">
+                        <a href="{{ route('order') }}" style="text-decoration:none" class=<?php echo $status=='order'
+                            ? "primary-textColor" : "text-dark" ?> >
+                            @if($status == 'order')
+                            <img src="{{ asset('image/orderactive.png') }}" alt="" width="100px" height="100px">
+                            <p>Order</p>
+                        </a>
+                        @else
+                        <img src="{{ asset('image/order.png') }}" alt="" width="100px" height="100px">
+                        <p>Order</p></a>
+                        @endif
+                    </div>
+                    <div class="col-lg-3 col-1">
+                        <a href="{{ route('message') }}" style="text-decoration:none" class=<?php echo $status=='message'
+                            ? "primary-textColor" : "text-dark" ?>>
+                            @if($status == 'message')
+                            <img src="{{ asset('image/msgactive.png') }}" alt="" width="30px" height="30px">
+                            <p>Messages</p>
+                        </a>
+                        @else
+                        <img src="{{ asset('image/messages.png') }}" alt="" width="30px" height="30px">
+                        <p>Messages</p></a>
+                        @endif
+                    </div>
+                    <div class="col-lg-3 col-1">
+                        <a href="{{ route('setting') }}" style="text-decoration:none" class=<?php echo $status=='setting'
+                            ? "primary-textColor" : "text-dark" ?>>
+                            @if($status == 'setting')
+                            <img src="{{ asset('image/profileactive.png') }}" alt="" width="30px" height="30px">
+                            <p>Setting</p>
+                        </a>
+                        @else
+                        <img src="{{ asset('image/personal2.png') }}" alt="" width="30px" height="30px">
+                        <p>Setting</p></a>
+                        @endif
+                    </div> -->
+            </nav>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"
+        integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"
+        integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.0/fuse.min.js"></script>
+    <script src="bootstrap-select-dropdown.min.js"></script>
+</body>
+
+</html>
